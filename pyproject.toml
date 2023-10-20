@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "own-ml-observability-course"
+version = "0.1.0"
+description = ""
+authors = ["chris <kristopher.hassan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "own_ml_observability_course/src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+altair = "^5.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
